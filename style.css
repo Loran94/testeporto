@@ -252,7 +252,7 @@ width:7%;
 @media(max-width:1024px){
   
   .nav-link{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 5%;
   }
   .container--sliders {
@@ -306,7 +306,7 @@ width:7%;
     text-align: center;
     background-color: #eceaea;
     max-width: 70%;
-    height: 15em;
+    height: 18em;
     max-height: 100%;
     border-radius: 4%;
     margin-top: 4%;
