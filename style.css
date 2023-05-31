@@ -1,147 +1,368 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acqio</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <header class=" container container-cabecalho">
-        <section>
-          <a href="index.html"><img src="assets/acqio.svg" alt="Logo" width="120" height="60" class="d-inline-block align-text-top img-logo"> </a>
-        
-        </section>
-            <section class="container--nav">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid nav">   
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                    <div class="navbar-nav">
-                      <a class="nav-link " aria-current="page" href="#">HOME</a>
-                      <a class="nav-link " href="https://acqio.com.br/blog/">BLOG</a>
-                      <a class="nav-link" href="reclamações.html">FEEDBACK</a>
-                      <a class="nav-link" href="https://acqio.com.br/atendimento/">FALE CONOSCO</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </section>
-    </header>
-    <main class="container container--corpo">
-        <section class="container--sliders">
-            <div class="slider"> 
-                <img class="selected" src="Assets/banner-acqio-link-desktop-v2.jpg" alt="">
-                <img src="Assets/banner-acqio-mais-desktop.jpg" alt="">
-                <img src="Assets/banner-home.jpg" alt="">
-                <img src="Assets/banner-sp-site-v3.jpg" alt="">
-              </div>
-        </section>
-        <section class="container--img-link">
-          <div class=" texto--link">
-              <h2>Deixe Seu Feedback</h2>
-          </div>
-          <div class="img--link">
-              <a href="reclamações.html"><img id="img--" src="Assets/Acqio banner 2.png" alt="imagem feedback">
-            </a>   
-          </div>
-          </section>
-          <section class="container--blog">
-              <div class="container text-center">
-                  <div class="row">
-                    <div class="col-12 container--blog--texto">
-                      <a class="h1--blog" href="https://acqio.com.br/blog/">Blog</a>
-                      <p class="p1--blog">Posts recentes</p>
-                    </div>
-                  </div>
-              
-                  <div class="row container--card">
-                      <div class="col-4">
-                          <div class="card card--img--1">
-                              <a href="https://acqio.com.br/blog/vender-mais-no-dia-das-maes-veja-como/">
-                                  <img id="img-blog" src="Assets/dia-maes-thumbnail-500x300.jpg" class="card-img-top" alt="dia das maes" style= "width: 100%; height: 130px; max-width:300px; max-height:200px;">
-                              </a>
-                              <div class="card-body">
-                                <h5 class="card-title">Vender mais no Dia das Mães? Veja como</h5>
-                                <p class="card-text">Ah, o Dia das Mães! Essa data tão especial merece ser comemorada com muito carinho e atenção.
-                                  Como resultado, para os empreendedores,
-                                  é uma excelente oportunidade de alavancar as vendas e conquistar novos clientes.</p>
-                                <a href="https://acqio.com.br/blog/vender-mais-no-dia-das-maes-veja-como/" class="btn btn-primary">veja mais...</a>
-                              </div>
-                            </div>
-                            
-                      </div>
-                      <div class="col-4">
-                          <div class="card card--img--1">
-                              <a href="https://acqio.com.br/blog/networking-como-construir-relacionamentos-estrategicos/">
-                                  <img id="img-blog" src="Assets/destaque-networking.jpg" alt="dia das maes" style= "width: 100%; max-width:300px; max-height:200px;">
-                              </a>
-                              <div class="card-body">
-                                <h5 class="card-title">Networking: como construir relacionamentos estratégicos</h5>
-                                <p class="card-text">Você já ouviu falar sobre o poder do networking, certo? Networking é o processo de conhecer outras pessoas,
-                                  trocar informações e construir relacionamentos que possam ajudar no crescimento pessoal e profissional.</p>
-                                <a href="https://acqio.com.br/blog/networking-como-construir-relacionamentos-estrategicos/" class="btn btn-primary">veja mais...</a>
-                              </div>
-                            </div>
-                      </div>
-                      <div class="col-4">
-                          <div class="card card--img--2">
-                              <a href="https://acqio.com.br/blog/franquias-e-microfranquias-crescimento-em-2023/">
-                              <img id="img-blog" src="Assets/crescimento-franquia-destaque.jpg" alt="dia das maes" style= "width: 100%; max-width:300px; max-height:200px;">
-                          </a>
-                              <div class="card-body">
-                                <h5 class="card-title">Franquias e microfranquias: Crescimento em 2023</h5>
-                                <p class="card-text">Neste artigo, exploraremos os fatores que contribuíram para esse crescimento e as projeções otimistas para o futuro próximo.</p>
-                                <a href="https://acqio.com.br/blog/franquias-e-microfranquias-crescimento-em-2023/" class="btn1 btn-primary1">veja mais...</a>
-                              </div>
-                            </div>
-                      </div>
-                    </div>
-              
-        </section>
-    </main>
-    <footer class="contianer--rodape">
-      <section class="contianer--lista--link">
-       <div class=lista>  
-       <a class="lista--link" href="https://acqio.com.br/historico/">SOBRE A ACQIO</a>
-       <a class="lista--link" href="reclamações.html">FEEDBACK</a>
-       <a class="lista--link" href="https://acqio.com.br/franquias/">FRANQUIAS</a>
-       <a class="lista--link" href="https://acqio.com.br/blog/">BLOG</a>
-       <a class="lista--link" href="https://acqio.com.br/atendimento/">FALE CONOSCO</a>
-        </div>
-      </section>
-    <div class="redes">
-      <div><h3 class="h3--redes">Redes Sociais</h3>
-      </div>
-        <a href="https://www.facebook.com/Acqio"><img id="img--redes" src="Assets/facebook (1).png" alt="Facebook" ></a>
-        <a href="https://www.instagram.com/acqio/"><img id="img--redes" src="Assets/instagram.png" alt="Instagram"></a>
-        <a href="https://www.youtube.com/c/acqio"><img id="img--redes" src="Assets/youtube.png" alt="Youtube"></a>
-        <a href="https://www.linkedin.com/company/10103172/"><img id="img--redes" src="Assets/linkedin.png" alt="Linkdin"></a>
+.root{
+  --cor-principal:#ffffff;
+  --cor-verde-escuro:#146C6C;
+  --cor-verde-claro:#2CACAC;
+  --cor-amarelo:#FCCC54;
+  --cor-azul:#007bff;
+  --teal:#20c997;
+  --fonte-principal:font-family: 'Lato', sans-serif;
 
+}
 
-    </div>
-    </div>
-        <div class="rodape--texto">
-        <p> A ACQIO é uma fintech focada em desenvolver as melhores soluções para empreendedores brasileiros decolarem seus negócios.
-            Desenvolveu seu principal canal de vendas por meio da captação de franqueados Acqio que, atualmente, comercializam seus serviços em todo o território nacional.
-            A expansão da companhia permanece em ritmo acelerado por meio de parcerias estratégicas e com o lançamento de novos produtos,
-            feitos com tecnologia de ponta e uso intuitivo para experiências de qualidade.​</p>
-        </div>
-        <div class="rodape--texto--2">
-        <p>  
-            A Esfera 5 Tecnologia e Pagamentos S.A (CNPJ: 18.577.728/0001-46) não é um banco ou uma instituição financeira, mas prestador de serviços de correspondente bancário à QI Sociedade de Crédito Direto S.A.
-             (CNPJ: 32.402.502/0001-35). Por meio da nossa plataforma digital, você terá acesso ao produto Acqio Cash oferecido por essa instituição financeira.
-              Para maiores informações, consulte a Resolução nº. 3.954, de 24 de fevereiro de 2011 do Banco Central do Brasil.
-              Para entrar em contato com a instituição financeira, acesse: www.qitech.com.br
-        </p>
-        </div>
-        <div class="ultimo--texto">
-          <img id="img--logo--rodape" src="Assets/acqio-white.svg" alt="logo rodape">
-            <p> Quem faz, conta com a gente.</p>
-            <p>Acqio 2014 - 2021. Todos os direitos reservados</p> 
-            <p>CNPJ: 18.577.728/0001-46</p>
-        </div>
-    </footer>
-  <script src="main.js"></script>
-</body>
-</html>
+*{
+padding: 0%; 
+margin: 0%; 
+}
+.container-cabecalho{
+  text-align: center;
+
+}
+.container--corpo{
+  width: 100%;
+ 
+}
+.container--nav{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2%;
+}
+
+.nav-link{
+  margin: 9%;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family:var(--fonte-principal);
+  font-weight:500;
+  font-size: 1.3rem;
+  opacity: 1;
+  transition: all 0.3S ease;
+
+}
+.nav-link:hover{
+  color: #146C6C;
+  font-weight: 500;
+
+}
+.container--sliders {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh !important;
+}
+.slider {
+  position: relative;
+  text-align: start;
+  width: 100%;
+  height: 500px;
+}
+
+.slider img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 800ms;
+}
+.slider img.selected{
+  opacity: 1;
+}
+.container--img-link{
+  justify-content: center;
+  text-align: center !important;
+  margin: 10% 0% 10% 0%;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.img--link{
+  text-align: center;
+}
+
+#img--{
+  width: 40%;
+  border-radius: 2%;
+  transition: all 0.5s ease;
+}
+#img--:hover{
+  opacity: 70%;
+}
+.texto--link{
+  color: #2CACAC;
+  font-size: 2rem;
+  padding-bottom: 3%;
+  font-family:var(--fonte-principal);
+}
+
+.container--blog{
+  background-image: url('https://acqio.com.br/wp-content/themes/acqio_theme/imgs/yellow-texture.jpg');
+  border-image-repeat: unset;
+  background-size: 100%;
+  height: 40em;
+  background-repeat:repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.container--blog--texto{
+  text-align: center;
+  font-family: var(--fonte-principal);
+}
+.h1--blog{
+  text-decoration: none;
+  text-align: center;
+  font-size: 4rem;
+  color:#ffffff;
+  font-family:var(--fonte-principal);
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+.h1--blog:hover{
+opacity: 80%;
+
+}
+.p1--blog{
+  text-align: center;
+  font-size: 1.5rem;
+  color:#ffffff;
+  font-family:var(--fonte-principal);
+  margin-bottom: 2%;
+}
+.container--card{
+  display: flex;
+  padding-left: 5%;
+}
+.card--img--1{
+  background-color: #eceaea;
+  max-width: 40%;
+  height: 25em;
+  max-height: 100%;
+  font-family:var(--fonte-principal);
+  border-radius: 4%;
+  
+}
+.card--img--2{
+  background-color: #eceaea;
+  width: 70%;
+  height: 25em;
+  border-radius: 4%;
+  font-family:var(--fonte-principal);
+  
+}
+.btn1 {
+color: #146C6C;
+}
+.btn:hover {
+  opacity: 70%;
+  transition: all 0.5s ease;
+}
+#img-blog{
+  transition: all 0.5s ease;
+}
+#img-blog:hover{
+opacity: 70%;
+}
+
+.card-text{
+margin: 5%;
+font-size: 0.9rem;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+}
+.card--titulo{
+margin-top: 0%;
+}
+.contianer--rodape{
+  width: 100%;
+  background-color: #2CACAC;
+  background-size: 100%;
+  height: 50%;
+}
+.contianer--lista--link{
+  width: 100%;
+  background-color:#ffffff;
+  height:4rem;
+}
+.lista{
+  padding-top: 1%;
+}
+.lista--link{ 
+  text-align: center;
+  text-decoration: none;
+  margin: 6.5%;
+  color: black;
+  font-family:var(--fonte-principal);
+  font-weight:300;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+.lista--link:hover{
+  color: #146C6C;
+  font-weight: 500;
+}
+
+.redes{
+  padding-top: 5%;
+  text-align:end;
+  margin-right: 10%;
+  font-family:var(--fonte-principal);
+}
+.h3--redes{
+  color: #FCCC54;
+  font-size: 1.5rem;
+  text-align:end;
+  margin-right: 2%;
+}
+#img--redes{
+  margin: 0.5%;
+  width: 2.1rem;
+}
+#img--logo--rodape{
+width:7%;
+}
+.rodape--texto{
+  margin-left: 15%;
+  font-size: 1rem;
+  width: 40%;
+  height: 40%;
+  color: #eceaea;
+  font-weight: 300;
+  margin-bottom: 2%;
+  font-family:var(--fonte-principal);
+}
+.rodape--texto--2{
+  font-size: 1rem;
+  width: 40%;
+  height: 40%;
+  margin-left: 15%;
+  padding-bottom: 10%;
+  color: #eceaea;
+  font-weight: 300;
+  font-family:var(--fonte-principal);
+}
+.ultimo--texto{
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #eceaea;
+  padding-bottom: 7%;
+  font-family: 'Lato', sans-serif;
+}
+
+  
+@media(max-width:1024px){
+  
+  .nav-link{
+  font-size: 0.6rem;
+  margin: 5%;
+  }
+  .container--sliders {
+  width: 100%;
+  max-height: 25vh;
+  
+  }
+  .slider{
+    width:100%;
+   height: 100%;
+   
+  }
+
+  .container--img-link{
+    text-align: center;
+    
+  }
+  #img--{
+    width: 60%;
+  }
+  .texto--link{
+    font-size: 1rem;
+  }
+  .container--blog{
+    background-image: url('https://acqio.com.br/wp-content/themes/acqio_theme/imgs/yellow-texture.jpg');
+    background-size: 100%;
+    height: 65rem;
+    background-repeat:repeat;
+  }
+  .container--blog--texto{
+    text-align: center;
+  }
+  .h1--blog{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#ffffff;
+  }
+  .p1--blog{
+    text-align: center;
+    font-size: 1rem;
+    color:#ffffff;
+  }
+  .container--card{
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .card--img--1{
+    text-align: center;
+    background-color: #eceaea;
+    max-width: 75%;
+    height: 18em;
+    max-height: 100%;
+    border-radius: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  #img-blog{
+   border-top-left-radius: 4%;
+   border-top-right-radius: 4%;
+   
+  }
+  .card--img--2{
+    text-align: center;
+    background-color: #eceaea;
+    width:75%;
+    height: 18em;
+    border-radius: 4%;
+    margin-top: 4%;
+  }
+  .card-title{
+    font-size: 0.8rem;
+  }
+  .card-text{
+  margin: 5%;
+  font-size: 0.6rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  }
+
+  .contianer--lista--link{
+    height: 2.5rem;
+  }
+  .lista--link{
+    font-size: 0.5rem;
+    margin: 3%;
+    padding-left: 1%;
+  }
+  .h3--redes{
+    font-size: 0.8rem;
+  }
+  #img--redes{
+    width: 1.5rem;
+  }
+  #img--logo--rodape{
+    width:20%;
+  }
+  .rodape--texto{
+    font-size: 0.6rem;
+  }
+  .rodape--texto--2{
+    font-size: 0.6rem;
+  }
+.ultimo--texto{
+  font-size: 0.9rem;
+}
+}
